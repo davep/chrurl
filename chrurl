@@ -1,0 +1,7 @@
+#!/usr/bin/env osascript
+
+if application "Google Chrome" is running then
+  tell app "Google Chrome" to get URL of active tab of first window
+end if
+
+### chrurl ends here
